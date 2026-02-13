@@ -11,6 +11,7 @@ A TCP SYN Scan exploits the first two steps of this handshake.
 
 What is a TCP SYN Scan (-sS)? A TCP SYN Scan is a "half-open" scan because it doesn't complete the three-way handshake. Instead, it leaves the server hanging after step 2.
 
+
 Here's how it works:
 
 Nmap sends a SYN packet to the target port, just like a normal client would.
