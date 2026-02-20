@@ -9,6 +9,7 @@ ACK: The client sends back a packet with the ACK flag set, confirming the connec
 
 A TCP SYN Scan exploits the first two steps of this handshake.
 
+
 What is a TCP SYN Scan (-sS)? A TCP SYN Scan is a "half-open" scan because it doesn't complete the three-way handshake. Instead, it leaves the server hanging after step 2.
 
 
